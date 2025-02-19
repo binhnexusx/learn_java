@@ -6,5 +6,6 @@ public class CubeVolumeCalculator {
         double size = binhdev.nextDouble();
         double CubeVolume = Math.pow(size, 3);
         System.out.println("The cube volume is " + CubeVolume);
+        binhdev.close();
     }
 }
